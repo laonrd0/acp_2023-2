@@ -40,7 +40,7 @@ Ahora si, para iniciar con la instalación sigue los siguientes pasos:
 
 3. Espera a que la instalación llegue al 100% y presiona **Enter**. Esto iniciará el proceso de instalación de linux Ubuntu.
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-03.webp)
+   ![](imgs/01-03.webp?raw=true)
 
 4. Espera a que la instalación de Ubuntu se complete.
 
@@ -48,11 +48,11 @@ Ahora si, para iniciar con la instalación sigue los siguientes pasos:
 
 6. Una vez que se haya reiniciado la computadora iniciará la configuración de Ubuntu.
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-05.webp)
+   ![](imgs/01-05.webp?raw=true)
 
 7. Ingresa un **username** y **password**. No pierdas estos datos, ya que son requeridos para muchas acciones en el sistema operativo Linux.
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-06.webp)
+   ![](imgs/01-06.webp)
 
 8. Hecho lo anterior, ya tienes WSL y Ubuntu instalados en tu computadora con Windows.  Para acceder nuevamente a Ubuntu en WSl abre la aplicación **Terminal** desde inicio de Windows.
 
