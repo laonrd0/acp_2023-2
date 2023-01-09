@@ -32,7 +32,7 @@ Ahora si, para iniciar con la instalación sigue los siguientes pasos:
 
 1. Abrimos *"Windows PowerShell"* desde inicio en Widows y **Ejecutamos como Administrador**.
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-01.webp)
+   ![](imgs/01-01.webp?raw=true)
 
 2. Dentro de Windows PowerShell escribe la siguiente instrucción y presiona la tecla **Enter**:
 
@@ -40,7 +40,7 @@ Ahora si, para iniciar con la instalación sigue los siguientes pasos:
 
 3. Espera a que la instalación llegue al 100% y presiona **Enter**. Esto iniciará el proceso de instalación de linux Ubuntu.
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-03.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-03.webp)
 
 4. Espera a que la instalación de Ubuntu se complete.
 
@@ -48,21 +48,21 @@ Ahora si, para iniciar con la instalación sigue los siguientes pasos:
 
 6. Una vez que se haya reiniciado la computadora iniciará la configuración de Ubuntu.
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-05.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-05.webp)
 
 7. Ingresa un **username** y **password**. No pierdas estos datos, ya que son requeridos para muchas acciones en el sistema operativo Linux.
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-06.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-06.webp)
 
 8. Hecho lo anterior, ya tienes WSL y Ubuntu instalados en tu computadora con Windows.  Para acceder nuevamente a Ubuntu en WSl abre la aplicación **Terminal** desde inicio de Windows.
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-07.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-07.webp)
 
 9. Dentro de **Terminal** da clic en la flecha hacia abajo y elige la opción de **Ubuntu**.
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-08.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-08.webp)
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-09.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-09.webp)
 
 
 
@@ -76,7 +76,7 @@ Cuando instalamos  Ubuntu por default tendremos una instalación de Python 3 dis
 
    `python3 --version`
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-21.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-21.webp)
 
    Observa en la imagen que este comando imprimirá en pantalla la versión de python con la que cuentas, esta información puede ser distinta dependiendo de la instalación de cada uno.
 
@@ -86,9 +86,9 @@ Cuando instalamos  Ubuntu por default tendremos una instalación de Python 3 dis
 
    `sudo apt update`
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-22.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-22.webp)
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-23.webp)![](/home/leonardo/Documentos/acp_2023-2/docs/01-23.webp)Los repositorios de Ubuntu, son enlaces a servidores donde se almacenan los paquetes y aplicaciones necesarios para Ubuntu. Es similar a una tienda de aplicaciones.
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-23.webp)![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-23.webp)Los repositorios de Ubuntu, son enlaces a servidores donde se almacenan los paquetes y aplicaciones necesarios para Ubuntu. Es similar a una tienda de aplicaciones.
 
    
 
@@ -112,15 +112,15 @@ Es recomendable aplicar de vez en cuando los comandos `sudo apt update` y `sudo 
 
    `sudo apt -y install python3-pip`
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-24.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-24.webp)
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-25.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-25.webp)
 
 3. Prueba la instalación de pip3 una vez que haya terminado todo el proceso ejecutando el siguiente comando:
 
    `pip3 --version`
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-26.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-26.webp)
 
    
 
@@ -138,15 +138,15 @@ Ahora que tienes tu sistema de Linux en Windows, podrás abrir Visual Studio Cod
 
 1. Busca “Visual Studio Code” desde tu buscador de Windows y ábrelo dando clic en su ícono:
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-31.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-31.webp)
 
 2. Una vez abierto VSCode ve al panel izquierdo y da clic en el ícono de extensiones:
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-32.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-32.webp)
 
 3. Busca en el menú izquierdo la extensión **WSL** e instálala con el botón azul install:
 
-   ![](/home/leonardo/Documentos/acp_2023-2/docs/01-33.webp)
+   ![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-33.webp)
 
    Adicionalmente ya que trabajaremos con Python, instala algunas extenciones adicionales como: **Python Extension Pack**
 
@@ -156,9 +156,9 @@ Ahora que tienes tu sistema de Linux en Windows, podrás abrir Visual Studio Cod
 
 Este comando abrirá una versión de VSCode que correrá desde WSL con  el sistema operativo Ubuntu. Esto puedes comprobarlo porque en la parte  inferior izquierda de tu editor verás un recuadro verde que indica que  estás en WSL y qué versión de Linux utilizas:
 
-![](/home/leonardo/Documentos/acp_2023-2/docs/01-34.webp)
+![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-34.webp)
 
-![](/home/leonardo/Documentos/acp_2023-2/docs/01-35.webp)
+![](/home/leonardo/Documentos/acp_2023-2/docs/imgs/01-35.webp)
 
 
 
